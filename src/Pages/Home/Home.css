@@ -1,0 +1,41 @@
+.homeContainer h1{
+    margin-left: 2em;
+}
+.categoriesList{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.categoriesList li {
+    margin: 10px;
+}
+.image-with-title-container {
+    
+    width: 100%;
+    max-width: 300px; 
+    
+  }
+  
+  .image-with-title-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    
+  }
+  
+  .image-with-title-title {
+    
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 8px;
+    
+    color: rgb(24, 2, 2); 
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  

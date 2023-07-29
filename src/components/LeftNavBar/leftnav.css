@@ -1,0 +1,8 @@
+.leftNavContainer{
+    background-color: aqua;
+    height: 100%;
+}
+
+.leftNavContainer div {
+    margin-top: 20px;
+}

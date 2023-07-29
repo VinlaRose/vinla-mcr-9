@@ -1,0 +1,88 @@
+.video-thumbnail-container {
+    
+    
+    margin-bottom: 20px;
+    max-width: 800px; 
+  }
+  
+  .video-thumbnail-image-container {
+    
+    width: 300px;
+    height: 174px;
+   
+    overflow: hidden;
+    position: relative;
+  }
+  .watchLaterButton{
+    position:  absolute;
+    top: 0;
+    right: 0;
+    background-color: rgb(235, 235, 248);
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    border-bottom-left-radius: 8px;
+  }
+
+  
+  .video-thumbnail-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .video-thumbnail-play-button {
+   
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: white;
+  }
+  
+  .video-thumbnail-creator-circle {
+    
+    
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: white; /* Add a background color to the circle */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow effect */
+  }
+  
+  .video-thumbnail-creator-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .video-thumbnail-details {
+   display: flex;
+   width: 300px;
+  }
+
+  .thumbnailRight{
+    margin-left: 10px;
+  }
+  
+  .video-thumbnail-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .video-thumbnail-creator {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .video-thumbnail-stats {
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .video-thumbnail-stats span {
+    margin-right: 10px;
+  }
+  
