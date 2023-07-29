@@ -12,7 +12,8 @@ export const Home = () => {
             return {
                 ...item,
                 inPlaylist: false,
-                inWatchLater: false
+                inWatchLater: false,
+                notes: []
             }
         })})
         console.log(state);

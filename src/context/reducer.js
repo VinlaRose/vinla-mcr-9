@@ -33,7 +33,13 @@ export const reducer = (state, action) => {
             ...state,
             playList: updatePlaylist
           };
-        
+    
+    case "ADD_NOTES":
+        return{
+            ...state,
+            data: action.payload
+        }
+
       default:
         return state;
     }

@@ -8,7 +8,8 @@ const initialValue = {
     data:  [],
     filteredData: JSON.parse(localStorage.getItem("wishlist")) || [],
     wishList: JSON.parse(localStorage.getItem("wishlist")) || [],
-    playList: []
+    playList: [],
+    
 }
 
 export const DataContext = createContext(initialValue);
