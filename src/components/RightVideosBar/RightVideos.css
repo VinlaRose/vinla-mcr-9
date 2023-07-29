@@ -1,0 +1,30 @@
+.rightVideoBarContainer{
+    width: 300px;
+}
+.videoImage {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+  }
+
+  .rightVideo{display: flex;}
+
+  
+.rightVideoDetails{
+    margin-left: 10px;
+
+    
+}
+.rightVideoDetails .title{
+    font-size: smaller;
+    color: rgb(32, 116, 150);
+    font-weight: 600;
+   
+}
+
+.rightVideoDetails .creator{
+    font-size: smaller;
+    color: rgb(32, 116, 150);
+    font-weight: 200;
+   
+}

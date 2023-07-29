@@ -1,0 +1,16 @@
+.indieVideoContainer{
+    display: flex;
+}
+
+.videoPlayingContainer{
+    
+    margin: 20px;
+    flex: 5;
+}
+
+.rightVideoBar{
+    
+    margin-top: 20px;
+    flex: 2;
+    
+}
