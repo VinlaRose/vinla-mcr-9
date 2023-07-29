@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom"
 import "./leftnav.css"
+import HomeIcon from '@mui/icons-material/Home';
 export const LeftNav = () => {
     const navigate = useNavigate()
     return(
