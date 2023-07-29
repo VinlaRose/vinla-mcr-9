@@ -1,12 +1,16 @@
 import { useNavigate, useParams } from "react-router-dom";
 import { videos } from "../../data/videos";
 import VideoThumbnail from "../../components/videoThumbnail/Thumbnail";
+import { useContext, useEffect } from "react";
+import { DataContext } from "../../context/Context";
 
 export const IndieCategory = () => {
+    const {state} = useContext(DataContext)
     const {category} = useParams();
-    const requiredVideos = videos.filter(item => item.category === category);
+    const requiredVideos = state.data.filter(item => item.category === category);
     console.log(requiredVideos);
-    const navigate = useNavigate();
+   
+    
     
     return(
         <div >   
@@ -17,7 +21,7 @@ export const IndieCategory = () => {
                 <ul className="categoriesList">
                     {
                         requiredVideos.map((item) => (
-                            <li key={item._id} onClick={() => navigate(`/${item.category}/${item._id}`)}>
+                            <li key={item._id} >
                                  <VideoThumbnail video={item} />
                             </li>
                         ))

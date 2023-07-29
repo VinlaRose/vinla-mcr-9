@@ -6,6 +6,9 @@ import { LeftNav } from './components/LeftNavBar/LeftNav';
 import { IndieCategory } from './Pages/IndieCategoryPage/IndieCategoryPage';
 import { IndieVideoPage } from './Pages/IndieVideoPage/IndieVideoPage';
 import { Explore } from './Pages/Explore/Explore';
+import { WatchLater } from './Pages/WatchLater/Watchlater';
+import { Playlists } from './Pages/Playlists/Playlists';
+
 
 function App() {
   return (
@@ -20,6 +23,8 @@ function App() {
         <Route path="/:category" element={<IndieCategory/>} />
         <Route path="/:category/:videoId" element={<IndieVideoPage/>} /> 
         <Route path="/explore" element={<Explore/>}/>
+        <Route path="/watchlater" element={<WatchLater/>}/>
+        <Route path="/playlist" element={<Playlists/>}/>
        </Routes>
       </div>
 
